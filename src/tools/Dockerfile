@@ -8,7 +8,7 @@ ENV ANDROID_HOME=/opt/android-sdk-linux \
 ENV ANDROID_SDK_ROOT=$ANDROID_HOME \
     PATH=${PATH}:${ANDROID_HOME}/cmdline-tools/tools/bin:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/emulator
 
-# comes from https://developer.android.com/studio/#command-tools
+# Reference comes from https://developer.android.com/studio/#command-tools
 ENV ANDROID_SDK_TOOLS_VERSION 6609375
 
 RUN set -o xtrace \

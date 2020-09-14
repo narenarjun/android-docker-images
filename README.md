@@ -7,3 +7,6 @@
 
  ### To get the Tools image 
  `docker pull quay.io/narendev/android-tools`
+
+
+For both docker images `ubuntu:20.04` is used as the base Image.
